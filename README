@@ -8,10 +8,5 @@ Git classroom test @2016/9/9
 
 I'm noname for branch. Delete branch noname.
 
-<<<<<<< HEAD
-Use for test branch change.
-
 Use for tets rebase change.
-=======
-Use for test rebase change.
->>>>>>> forRebase
+
