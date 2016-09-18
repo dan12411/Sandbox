@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style type="text/css">
+    .navbar-nav li {
+        margin-right: 30px;
+    }
+
+    .navbar-form {
+        margin-right: 30px;
+    }
+
+    .navbar {
+        background-color: transparent;
+        border-color: rgba(207, 216, 210, 0.3);
+    }
+
+    .frontpage {
+        width: 100%;
+    }
+
+    .welcome {
+        background-image: url("http://simg314.magcasa.com/content_images/2016/02/24/246130/1456327805_6226.jpg");
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+        padding: 160px;
+    }
+
+    .welcome h1,
+    .welcome h3 {
+        line-height: 200%;
+    }
+
+    .content {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .content h1 {
+        font-size: 5rem;
+    }
+
+    .part2 {
+        margin-top: 80px;
+    }
+
+    .part2 h1 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    .part2 p {
+        font-size: 3rem;
+    }
+
+    .part3 img {
+        width: 100%;
+        box-shadow: 5px 5px 110px 10px #999;
+    }
+
+    .part4 {
+        background-color: #f5f5f5;
+    }
+
+    .part4 img {
+        width: 80px;
+    }
+
+    .part4-1 {
+        margin-bottom: 40px;
+    }
+
+    .part5 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .part5 img {
+        width: 100%;
+    }
+
+    .part6 {
+        background-color: #2d344d;
+        text-align: center;
+    }
+
+    .part6 h1 {
+        color: #fff;
+        font-size: 6rem;
+        line-height: 50%;
+    }
+
+    .part6 h2 {
+        color: #abadb7;
+        font-size: .6rem;
+    }
+
+    .part6-1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-right: 1px solid rgba(100, 100, 100, 0.6);
+    }
+
+    .part6-1:first-child {
+        border-left: 1px solid rgba(100, 100, 100, 0.6);
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .part7 {
+        width: 1440px;
+        height: 277px;
+        padding-top: 75px;
+        padding-bottom: 90px;
+        border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+    }
+
+    .part8 img {
+        width: 370px;
+        height: 241px;
+    }
+
+    .part8 h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .part8-1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .part8 {
+        height: 600px;
+    }
+
+    .part9 {
+        background-image: url("http://wportfolio.wzu.edu.tw/blog/attach/606/28606/3/bf_55390_3156050_82177_201006042009245.jpg");
+        background-size: cover;
+        height: 350px;
+    }
+
+    .part9-1 {
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .part9 input,
+    .part9 a {
+        border-radius: 30px;
+    }
+
+    .part9 input {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .part10 {
+        padding-top: 75px;
+        padding-bottom: 90px;
+        border-bottom: 1px solid rgba(100, 100, 100, .2);
+    }
+
+    .part10 h1 {
+        font-weight: 700;
+        font-size: 5rem;
+    }
+
+    .part10 img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .part10 h6 {
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    .part10-1 {
+        margin-top: 20px;
+    }
+
+    .part11 a {
+        color: #000;
+    }
+
+    .part12 {
+        margin-top: 20px;
+        background-color: #ddd;
+        height: 70px;
+    }
+
+    .part12-1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    </style>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">選單切換</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Modicate</a>
+        </div>
+        <!-- 手機隱藏選單區 -->
+        <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+            <!-- 左選單 -->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="#">element</a></li>
+                <li><a href="#">feature</a></li>
+                <li><a href="#">extra</a></li>
+                <li><a href="#">page</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">galery</a></li>
+                <li><a href="#">shop</a></li>
+            </ul>
+            <!-- 搜尋表單 -->
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="search">
+                </div>
+                <button type="submit" class="btn btn-default">go</button>
+            </form>
+        </div>
+        <!-- 手機隱藏選單區結束 -->
+    </nav>
+    <div class="welcome">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugiat consequatur atque, ab voluptatum natus quisquam illum totam repellendus itaque.</h3>
+    </div>
+    <div class="part2 clearfix">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 content">
+            <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+            <p>Lorem ipsum dolor sit amet, <a href="">consectetur</a> adipisicing elit. Esse, minima, eius. Deleniti laboriosam nam consequatur, distinctio similique aliquid, magnam perspiciatis.</p>
+        </div>
+    </div>
+    <div class="part3 clearfix">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <img src="./desktop.jpg"></div>
+    </div>
+    <div class="part4 clearfix">
+        <div class="part4-1">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 content m-b-3">
+                <h1>some feature</h1>We worked out an amazing combination of vast functionality and user's comfort. It will totally impress you with its power!
+            </div>
+            <div class="col-sm-3"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="part4-2wrap col-sm-10">
+            <div class="part4-2">
+                <div class="col-sm-3 part4-2a">
+                    <img src="./apple.png" alt="">
+                    <div class="caption">
+                        <div class="m-t-2">
+                            <h2>Retina Ready</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore magna aliqua. Ut enim!</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 part4-2a">
+                    <img src="./apple.png" alt="">
+                    <div class="caption">
+                        <div class="m-t-2">
+                            <h2>Retina Ready</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore magna aliqua. Ut enim!</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 part4-2a">
+                    <img src="./apple.png" alt="">
+                    <div class="caption">
+                        <div class="m-t-2">
+                            <h2>Retina Ready</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore magna aliqua. Ut enim!</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 part4-2a">
+                    <img src="./apple.png" alt="">
+                    <div class="caption">
+                        <div class="m-t-2">
+                            <h2>Retina Ready</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore magna aliqua. Ut enim!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part5 clearfix">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div class="col-xs-12 col-sm-5">
+                <h1>About Company</h1>
+                <p>We are a studio that aims to make our users experience easier and much more pleasant.</p>
+                <p>You probably won't have a better opportunity to make sure of our competence, as well as friendliness towards our customers.</p>
+            </div>
+            <div class="col-xs-12 col-sm-2"></div>
+            <div class="col-xs-12 col-sm-5"><img src="https://api.fnkr.net/testimg/350x200/00CED1/FFF/?text=img+placeholder"></div>
+        </div>
+    </div>
+    <div class="part6 clearfix">
+        <div class="col-xs-12 col-sm-1"></div>
+        <div class="col-xs-12 col-sm-10 part6-a">
+            <div class="col-xs-12 col-sm-3 part6-1">
+                <h1>197</h1>
+                <h2>CUPS OF COFFEE</h2></div>
+            <div class="col-xs-12 col-sm-3 part6-1">
+                <h1>23</h1>
+                <h2>CODERS</h2></div>
+            <div class="col-xs-12 col-sm-3 part6-1">
+                <h1>98</h1>
+                <h2>DESIGNERS</h2></div>
+            <div class="col-xs-12 col-sm-3 part6-1">
+                <h1>7230</h1>
+                <h2>LINES</h2></div>
+        </div>
+    </div>
+    <div class="part7 text-center ">
+        <div class="col-xs-12 col-sm-1"></div>
+        <div class="col-xs-12 col-sm-10 part7-1">
+            <a href=""><img src="https://api.fnkr.net/testimg/174x111/00CED1/FFF/?text=img+placeholder"></a>
+            <a href=""><img src="https://api.fnkr.net/testimg/174x111/00CED1/FFF/?text=img+placeholder"></a>
+            <a href=""><img src="https://api.fnkr.net/testimg/174x111/00CED1/FFF/?text=img+placeholder"></a>
+            <a href=""><img src="https://api.fnkr.net/testimg/174x111/00CED1/FFF/?text=img+placeholder"></a>
+            <a href=""><img src="https://api.fnkr.net/testimg/174x111/00CED1/FFF/?text=img+placeholder"></a>
+            <a href=""><img src="https://api.fnkr.net/testimg/174x111/00CED1/FFF/?text=img+placeholder"></a>
+        </div>
+    </div>
+    <div class="part8">
+        <h1 class="text-center">Lorem ipsum dolor sit amet.</h1>
+        <div class="container">
+            <div class="part8-1 col-sm-4">
+                <img src="http://farm4.staticflickr.com/3795/9269794168_3ac58fc15c_b.jpg" alt="">
+                <div class="caption">
+                    <h2>ohohohouh</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quisquam inventore libero non illum dolor possimus natus architecto unde consectetur. Esse, est atque. Reprehenderit quibusdam molestias omnis qui, id sed!</p>
+                    <p>
+                        <a href="#" class="btn btn-info">subscribe</a>
+                        <a href="#" class="btn btn-defaulte">next time</a>
+                    </p>
+                </div>
+            </div>
+            <div class="part8-1 col-sm-4">
+                <img src="http://i.imgur.com/avYHm.jpg" alt="">
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic amet saepe nostrum temporibus quasi doloremque repellat quam qui iure, laboriosam.</p>
+                    <p>
+                        <a href="#" class="btn btn-info">subscribe</a>
+                        <a href="#" class="btn btn-defaulte">next time</a>
+                    </p>
+                </div>
+            </div>
+            <div class="part8-1 col-sm-4">
+                <img src="http://pic.qiantucdn.com/58pic/11/12/27/89z58PICUBk.jpg" alt="">
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eius molestias necessitatibus exercitationem maiores quo officia quaerat, odit voluptates fuga.</p>
+                    <p>
+                        <a href="#" class="btn btn-info">subscribe</a>
+                        <a href="#" class="btn btn-defaulte">next time</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part9 text-center">
+        <div class="container">
+            <div class="row part9-1 col-sm-8 col-sm-offset-2">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore doloremque, suscipit exercitationem. Eaque hic, doloremque deleniti quasi deserunt reiciendis vel!</p>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12 col-sm-4 col-sm-offset-3">
+                    <input type="text" name="aa" id="aa" placeholder="name@example.com" class="form-control input-lg">
+                </div>
+                <a class="btn btn-primary col-sm-2 btn-lg" href="#" role="button">Subscribe</a>
+            </div>
+        </div>
+    </div>
+    <section class="part10 text-center">
+        <div class="container">
+            <div class="row col-sm-6 col-sm-offset-3">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nobis praesentium, quidem, eius earum unde. Quae praesentium ex et quo.</p>
+            </div>
+            <div class="row col-sm-12 part10-1">
+                <div class="card col-sm-4">
+                    <img class="card-img-top" src="http://attach.azureedge.net/newsimages/2015/02/22/224287.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h6>beauty no.1</h6>
+                        <p>web-designer</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ad deleniti ipsam, a facilis ea!Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-sm-4">
+                    <img class="card-img-top" src="http://img.chinatimes.com/newsphoto/2016-05-04/656/20160504005465.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h6>beauty no.2</h6>
+                        <p>web-designer</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ad deleniti ipsam, a facilis ea!Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-sm-4">
+                    <img class="card-img-top" src="https://i.imgur.com/zOOG7tO.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h6>beauty no.3</h6>
+                        <p>web-designer</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ad deleniti ipsam, a facilis ea!Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container part11 text-center">
+        <div class="row col-sm-12">
+            <a href="https://www.facebook.com/alvin.c.chang.1">
+                <h1>footer</h1></a>
+            <p class="lead">Lorem ipsum jojoijo jojio dolor sit amet.</p>
+        </div>
+    </div>
+    <section>
+        <div class="part12">
+            <div class="container text-center">
+                <div class="row col-sm-12 part12-1">
+                    <p>&copy;copyright 2016 birdbrother reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
